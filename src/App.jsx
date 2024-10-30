@@ -2,7 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Daisynav from  './components/Daisynav'
+// import Daisynav from  './components/Daisynav'
+import Navbar from './components/Navbar'
+import link from './components/Link'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +12,9 @@ function App() {
   return (
     <>
 
-      <Daisynav></Daisynav>
+      {/* <Daisynav></Daisynav> */}
+      <Navbar></Navbar>
+      <link></link>
 
      
       

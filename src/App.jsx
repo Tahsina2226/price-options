@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import PriceOptions from './components/PriceOptions'
 // import Daisynav from  './components/Daisynav'
 import Navbar from './components/Navbar'
 import link from './components/Link'
@@ -15,6 +16,7 @@ function App() {
       {/* <Daisynav></Daisynav> */}
       <Navbar></Navbar>
       <link></link>
+      <PriceOptions></PriceOptions>
 
      
       

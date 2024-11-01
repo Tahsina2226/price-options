@@ -1,8 +1,14 @@
-# React + Vite
+# 📊 Price List and Chart Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Price List and Chart Component** is a dynamic React component that fetches and displays a list of mobile phones along with their prices. Leveraging the **Programming Hero API**, it offers a clear visualization of phone prices through an interactive bar chart, enhancing user experience and engagement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+- 📞 **Real-time Data Fetching**: Retrieves phone data from the [Programming Hero API](https://openapi.programming-hero.com/) based on user queries.
+- 📊 **Data Visualization**: Displays a bar chart to visualize the price of each phone, allowing users to compare easily.
+- 🔄 **Loading Indicator**: Shows a loading spinner while data is being fetched, improving user feedback.
+- 📱 **Responsive Design**: The chart and information are designed to adapt to various screen sizes for optimal viewing.# 📊 Price List and Chart Component

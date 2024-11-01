@@ -6,6 +6,7 @@ import PriceOptions from './components/PriceOptions'
 // import Daisynav from  './components/Daisynav'
 import Navbar from './components/Navbar'
 import link from './components/Link'
+import LineChart from './components/LineChart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Navbar></Navbar>
       <link></link>
       <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
 
      
       

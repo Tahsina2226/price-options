@@ -1,5 +1,5 @@
-import PriceOption from "./PriceOption";
 
+import PriceOption from "./PriceOption";
 
 const PriceOptions = () => {
 

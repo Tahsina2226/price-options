@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import link from './components/Link'
 import LineChart from './components/LineChart'
 import PieChart from './components/PieChart'
+import Phones from './components/Phones'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <PriceOptions></PriceOptions>
       <LineChart></LineChart>
       <PieChart></PieChart>
+      <Phones></Phones>
 
      
       
